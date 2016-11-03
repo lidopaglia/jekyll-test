@@ -6,6 +6,6 @@ env:
   - NOKOGIRI_USE_SYSTEM_LIBRARIES=true
 sudo: false
 install: gem install jekyll html-proofer
-script: jekyll build
+script: bundle exec jekyll build
 deploy:
   provider: azure_web_apps
