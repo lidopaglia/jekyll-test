@@ -16,4 +16,4 @@ script:
 deploy:
   provider: azure_web_apps
   skip_cleanup: true
-  local_dir: _site
+  project: ./_site/
