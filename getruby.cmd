@@ -56,6 +56,7 @@ popd
 :end
 
 REM Need to be in Reposistory
+ECHO Changing to repository directory
 cd %DEPLOYMENT_SOURCE%
 cd
 
