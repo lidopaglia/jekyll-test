@@ -17,7 +17,6 @@ echo No Ruby, need to get it!
 REM Get Ruby and Rails
 REM 64bit
 rem curl -o ruby224.zip -L https://bintray.com/artifact/download/oneclick/rubyinstaller/ruby-2.2.4-x64-mingw32.7z?direct
-
 curl -o ruby225.zip -L https://dl.bintray.com/oneclick/rubyinstaller/ruby-2.2.5-x64-mingw32.7z?direct
 
 
