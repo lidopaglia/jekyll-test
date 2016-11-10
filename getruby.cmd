@@ -2,7 +2,7 @@
 
 REM Put Ruby in Path
 REM You can also use %TEMP% but it is cleared on site restart. Tools is persistent.
-SET PATH=%PATH%;D:\home\site\deployments\tools\r\ruby-2.2.4-x64-mingw32\bin
+SET PATH=%PATH%;D:\home\site\deployments\tools\r\ruby-2.2.5-x64-mingw32\bin
 
 REM I am in the repository folder
 pushd D:\home\site\deployments
@@ -18,7 +18,7 @@ REM Get Ruby and Rails
 REM 64bit
 rem curl -o ruby224.zip -L https://bintray.com/artifact/download/oneclick/rubyinstaller/ruby-2.2.4-x64-mingw32.7z?direct
 
-curl -o ruby225.zip -L https://dl.bintray.com/oneclick/rubyinstaller/ruby-2.2.5-i386-mingw32.7z?direct
+curl -o ruby225.zip -L https://dl.bintray.com/oneclick/rubyinstaller/ruby-2.2.5-x64-mingw32.7z?direct
 
 
 REM Azure puts 7zip here!
@@ -38,7 +38,7 @@ ruby DevKit\dk.rb init
 
 REM Tell DevKit where Ruby is
 echo --- > config.yml
-echo - D:/home/site/deployments/tools/r/ruby-2.2.4-x64-mingw32 >> config.yml
+echo - D:/home/site/deployments/tools/r/ruby-2.2.5-x64-mingw32 >> config.yml
 
 REM Setup DevKit
 ruby DevKit\dk.rb install
