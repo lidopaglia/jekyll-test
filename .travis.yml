@@ -9,7 +9,6 @@ branches:
   only:
   - master
 install:
-- gem install html-proofer
 - bundle install
 script:
 - bundle exec jekyll build
